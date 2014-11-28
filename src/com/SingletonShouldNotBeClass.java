@@ -27,7 +27,8 @@ public class SingletonShouldNotBeClass {
 	}
 	
 	
-	//Possible fix
+	//Possible fix(uncomment these lines to understand how to fix using thread local variables).
+	//Do remember to comment the other method.
 	/*public void incrementCounterAndLog(String threadName) {
 		if(counter.get() == null)
 			counter.set(0);
