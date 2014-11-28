@@ -48,14 +48,14 @@ public class MainClass {
 		/*should not be*/
 		Thread1 t1 = m1.new Thread1();
 		Thread2 t2 = m1.new Thread2();
-		//t1.start();
-		//t2.start();
+		t1.start();
+		t2.start();
 		
 		/*should not be*/
 		Thread3 t3 = m1.new Thread3();
 		Thread4 t4 = m1.new Thread4();
-		t3.start();
-		t4.start();
+		//t3.start();
+		//t4.start();
 		
 	}
 }
