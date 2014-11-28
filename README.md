@@ -21,3 +21,6 @@ a copy will be created per thread.
 As per the above logic, the SingletonShouldNotBeClass when executed by two threads, one thread affects the other.
 
 Where as in SingletonShouldBeClass, since it uses only the stack memory, one thread doesn't affect the other.
+
+
+The commented lines of code in SingletonShouldNotBeClass, also shows how to fix this issue using thread local variables.
